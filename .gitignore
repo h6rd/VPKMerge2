@@ -1,0 +1,10 @@
+bin/
+obj/
+publish/
+.vscode/
+temp/
+*.vpk
+.DS_Store
+Thumbs.db
+*.nupkg
+*.snupkg
