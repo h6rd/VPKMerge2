@@ -11,6 +11,10 @@
     <StripSymbols>true</StripSymbols>
   </PropertyGroup>
 
+  <PropertyGroup Condition="'$(RuntimeIdentifier)' == 'win-x64'">
+    <ApplicationIcon>icon.ico</ApplicationIcon>
+  </PropertyGroup>
+
   <ItemGroup>
     <!-- https://www.nuget.org/packages/ValvePak -->
     <PackageReference Include="ValvePak" Version="4.0.0.142" />
